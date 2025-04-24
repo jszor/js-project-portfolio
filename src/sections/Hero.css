@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 1.875rem;
+}
+
+h1 {
+  font-size: 6.25rem;
+  font-weight: 800;
+}
