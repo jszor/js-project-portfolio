@@ -1,5 +1,5 @@
-import HeaderRole from "../typography/HeaderRole.jsx"
-import HeaderDescription from "../typography/HeaderDescription.jsx"
+import HeaderRole from "./HeaderRole.jsx"
+import HeaderDescription from "./HeaderDescription.jsx"
 
 const HeaderAbout = () => {
   return (

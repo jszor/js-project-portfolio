@@ -12,7 +12,7 @@ const HeaderDescriptionStyled = styled.p`
 const HeaderDescription = () => {
   return (
     <HeaderDescriptionStyled>
-      With my background in linguistics and language education, learning how to talk to computers was a natural next step in my career. I enjoy cracking complex systems, tackling new technologies, and approaching every project as an opportunity to learn and grow. Check out my work below!
+      With my background in linguistics and language education, learning how to talk to computers was just the next step in my career. I enjoy cracking complex systems, tackling new technologies, and approaching every project as an opportunity to learn and grow. Check out my work below!
     </HeaderDescriptionStyled>
   )
 }

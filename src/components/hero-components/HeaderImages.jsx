@@ -1,6 +1,6 @@
-import office from "../assets/header_img_1.png"
-import headshot from "../assets/header_img_2.png"
-import coding from "../assets/header_img_3.png"
+import office from "../../assets/header_img_1.png"
+import headshot from "../../assets/header_img_2.png"
+import coding from "../../assets/header_img_3.png"
 import styled from "styled-components"
 
 const HeroSectionWrapper = styled.div`
