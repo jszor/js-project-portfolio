@@ -1,28 +1,64 @@
 {
   "projects": [
     {
-      "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "tags": [
+      "id": "1",
+      "name": "Accessibility Quiz",
+      "description": "An online quiz built with accessibility in mind. The design is responsive and follows best accessibility practices",
+      "image": "../../assets/proj_accessibility.png",
+      "imageAlt": "Accessibility Quiz",
+      "techStack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ARIA"
+      ],
+      "netlify": "https://accessibility-guiz.netlify.app/",
+      "github": "https://github.com/jszor/js-project-accessibility"
+    },
+    {
+      "id": "2",
+      "name": "Recipe Lib",
+      "description": "A web app that fetches and displays data dynamically from a recipes API. The project features filtering and sorting functionalities that work in tandem, giving the user the ability to fine-tune their search results.",
+      "image": "../../assets/proj_recipe.png",
+      "imageAlt": "Recipe Library",
+      "techStack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify": "https://recipelib.netlify.app/",
+      "github": "https://github.com/jszor/js-project-recipe-library"
+    },
+    {
+      "id": "3",
+      "name": "Chadō Business Site",
+      "description": "A basic business site built using HTML, CSS and vanilla JavaScript with responsiveness in mind.",
+      "image": "../../assets/proj_business.png",
+      "imageAlt": "Chadō Business Site",
+      "techStack": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://chado.netlify.app/",
+      "github": "https://github.com/jszor/js-project-business-site"
     },
     {
-      "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
+      "id": "4",
+      "name": "Weather App",
+      "description": "A weather app built using HTML, CSS, JavaScript and TypeScript. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
+      "image": "../../assets/proj_weather.png",
+      "imageAlt": "Weather App",
+      "techStack": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "TypeScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://wind1weatherapp.netlify.app/",
+      "github": "https://github.com/jszor/js-project-weather-app/"
     }
   ]
 }
