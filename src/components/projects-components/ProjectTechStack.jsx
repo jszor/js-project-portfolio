@@ -4,7 +4,10 @@ import ProjectTechElement from "./ProjectTechElement.jsx"
 const ProjectTechStackStyled = styled.div`
   display: flex;
   flex-direction: row; 
-  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  justify-content: center;
+  gap: 0.5rem;
 `
 
 const ProjectTechStack = ({ techStack }) => {
