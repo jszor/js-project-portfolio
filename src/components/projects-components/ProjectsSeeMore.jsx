@@ -4,6 +4,7 @@ const ProjectsSeeMoreStyled = styled.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   background: white;
@@ -21,14 +22,20 @@ const ProjectsSeeMoreText = styled.p`
   font-weight: 500;
 `
 
+const ProjectsSeeMoreAnchor = styled.a`
+  text-decoration: none;
+  margin: 4rem 0 4rem 0;
+  align-self: center;
+`
+
 const ProjectsSeeMore = () => {
   return (
-    <a href="#">
+    <ProjectsSeeMoreAnchor href="#">
       <ProjectsSeeMoreStyled type="button">
-          <ProjectsSeeMoreImage src="../../assets/down_arrow_icon.svg" alt="Down arrow icon" />
+          <ProjectsSeeMoreImage src="/icons/down_arrow_icon.svg" alt="Down arrow icon" />
           <ProjectsSeeMoreText>See more projects</ProjectsSeeMoreText>
       </ProjectsSeeMoreStyled>
-    </a>
+    </ProjectsSeeMoreAnchor>
   )
 }
 

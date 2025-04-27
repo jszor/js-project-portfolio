@@ -6,7 +6,8 @@ import ProjectsSeeMore from "../components/projects-components/ProjectsSeeMore.j
 const ProjectsStyled = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem 0 1rem;
 `
 
 const Projects = () => {

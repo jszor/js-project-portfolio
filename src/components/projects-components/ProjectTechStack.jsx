@@ -5,7 +5,6 @@ const ProjectTechStackStyled = styled.div`
   display: flex;
   flex-direction: row; 
   width: 100%;
-  padding: 0 1rem;
   justify-content: center;
   gap: 0.5rem;
 `

@@ -9,6 +9,8 @@ const ProjectCardStyled = styled.div`
   display: flex;
   flex-direction: column; 
   align-items: center;
+  margin-top: 4rem;
+  gap: 1rem;
 `
 
 const ProjectCard = ({ imageSrc, imageAlt, techStack, title, description, githubLink, netlifyLink }) => {
