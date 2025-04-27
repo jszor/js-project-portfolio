@@ -1,3 +1,4 @@
+import SkillCardsContainer from "../components/skills-components/SkillCardsContainer.jsx"
 import SectionTitle from "../typography/SectionTitle.jsx"
 import styled from "styled-components"
 
@@ -14,7 +15,7 @@ const Skills = () => {
   return (
     <SkillsStyled>
       <SectionTitle title="Skills" />
-      {/* skill cards */}
+      <SkillCardsContainer />
     </SkillsStyled>
   )
 }

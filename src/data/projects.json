@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Accessibility Quiz",
       "description": "An online quiz built with accessibility in mind. The design is responsive and follows best accessibility practices",
-      "image": "/images/proj_accessibility.app.png",
+      "image": "/images/proj_accessibility.png",
       "imageAlt": "Accessibility Quiz",
       "techStack": [
         "HTML5",
