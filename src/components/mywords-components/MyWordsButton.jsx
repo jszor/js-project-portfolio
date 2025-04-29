@@ -1,11 +1,40 @@
+import styled from "styled-components"
+
+const MyWordsButtonStyled = styled.button`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  width: 90%;
+  background: black;
+  color: white;
+  border: none;
+`
+
+const MyWordsButtonTextStyled = styled.p`
+  font-size: 1.125rem;
+  font-weight: 500;
+`
+
+const MyWordsButtonAnchor = styled.a`
+  text-decoration: none;
+`
+
+const MyWordsButtonImage = styled.img`
+  margin-right: 1rem;
+  height: 2rem;
+  width: 2rem;
+`
+
 const MyWordsButton = ({ link }) => {
   return (
-    <a href={link}>
-      <button type="button">
-        <img src="/icons/web_icon.svg" alt="Web Icon" />
-        <p>Read article</p>
-      </button>
-    </a>
+    <MyWordsButtonAnchor href={link}>
+      <MyWordsButtonStyled type="button">
+        <MyWordsButtonImage src="/icons/web_icon.svg" alt="Web Icon" />
+        <MyWordsButtonTextStyled>Read article</MyWordsButtonTextStyled>
+      </MyWordsButtonStyled>
+    </MyWordsButtonAnchor>
   )
 }
 
