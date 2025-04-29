@@ -11,7 +11,8 @@ const MyWordsContainer = () => {
         imageAlt={article.imageAlt}
         date={article.date}
         title={article.title}
-        description={article.description} />
+        description={article.description}
+        link={article.link} />
       ))}
     </div>
   )

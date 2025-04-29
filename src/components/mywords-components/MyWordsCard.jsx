@@ -2,15 +2,16 @@ import MyWordsImage from "./MyWordsImage.jsx"
 import MyWordsDate from "./MyWordsDate.jsx"
 import MyWordsDescription from "./MyWordsDescription.jsx"
 import MyWordsButton from "./MyWordsButton.jsx"
+import ProjectTitle from "../../typography/ProjectTitle.jsx"
 
-const MyWordsCard = ({ imageSrc, imageAlt, date }) => {
+const MyWordsCard = ({ imageSrc, imageAlt, date, title, description, link }) => {
   return (
     <div>
       <MyWordsImage src={imageSrc} alt={imageAlt} />
       <MyWordsDate date={date} />
-      // title
-      <MyWordsDescription />
-      <MyWordsButton />
+      <ProjectTitle title={title} />
+      <MyWordsDescription description={description} />
+      <MyWordsButton link={link} />
     </div>
   )
 }

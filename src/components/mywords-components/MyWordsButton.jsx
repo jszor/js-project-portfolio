@@ -1,9 +1,9 @@
-const MyWordsButton = ({ link, imageSrc, imageAlt, buttonText}) => {
+const MyWordsButton = ({ link }) => {
   return (
     <a href={link}>
       <button type="button">
-        <img src={imageSrc} alt={imageAlt} />
-        <p>{buttonText}</p>
+        <img src="/icons/web_icon.svg" alt="Web Icon" />
+        <p>Read article</p>
       </button>
     </a>
   )

@@ -5,7 +5,8 @@
     "date": "2025-04-01",
     "imageSrc": "https://via.placeholder.com/600x400?text=Article+1",
     "imageAlt": "Exploring the Future of Web Development",
-    "description": "An in-depth look at upcoming trends and technologies shaping the future of web development."
+    "description": "An in-depth look at upcoming trends and technologies shaping the future of web development.",
+    "link": "#"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "date": "2025-04-10",
     "imageSrc": "https://via.placeholder.com/600x400?text=Article+2",
     "imageAlt": "The Art of Writing Clean Code",
-    "description": "Tips and strategies for writing clean, maintainable, and efficient code in modern development projects."
+    "description": "Tips and strategies for writing clean, maintainable, and efficient code in modern development projects.",
+    "link": "#"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "date": "2025-04-20",
     "imageSrc": "https://via.placeholder.com/600x400?text=Article+3",
     "imageAlt": "Mastering React: Best Practices",
-    "description": "A comprehensive guide to mastering React with best practices and patterns for 2025 and beyond."
+    "description": "A comprehensive guide to mastering React with best practices and patterns for 2025 and beyond.",
+    "link": "#"
   }
 ]
