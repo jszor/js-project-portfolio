@@ -3,6 +3,7 @@ import Hero from "./sections/Hero.jsx"
 import Tech from "./sections/Tech.jsx"
 import Projects from "./sections/Projects.jsx"
 import Skills from "./sections/Skills.jsx"
+import MyWords from "./sections/MyWords.jsx"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Tech />
       <Projects />
       <Skills />
+      <MyWords />
     </>
   )
 }
