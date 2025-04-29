@@ -15,7 +15,7 @@ const Projects = () => {
     <ProjectsStyled>
       <SectionTitle title="Projects" />
       <ProjectsContainer />
-      <ProjectsSeeMore />
+      <ProjectsSeeMore text="See more projects" />
     </ProjectsStyled>
   )
 }

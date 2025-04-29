@@ -28,12 +28,12 @@ const ProjectsSeeMoreAnchor = styled.a`
   align-self: center;
 `
 
-const ProjectsSeeMore = () => {
+const ProjectsSeeMore = ({ text }) => {
   return (
     <ProjectsSeeMoreAnchor href="#">
       <ProjectsSeeMoreStyled type="button">
           <ProjectsSeeMoreImage src="/icons/down_arrow_icon.svg" alt="Down arrow icon" />
-          <ProjectsSeeMoreText>See more projects</ProjectsSeeMoreText>
+          <ProjectsSeeMoreText>{text}</ProjectsSeeMoreText>
       </ProjectsSeeMoreStyled>
     </ProjectsSeeMoreAnchor>
   )
