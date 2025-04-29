@@ -48,7 +48,7 @@
       "id": "4",
       "name": "Weather App",
       "description": "A weather app built using HTML, CSS, JavaScript and TypeScript. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
-      "image": "/images/proj_weather.png",
+      "image": "/images/proj_weather_1.png",
       "imageAlt": "Weather App",
       "techStack": [
         "HTML5",
