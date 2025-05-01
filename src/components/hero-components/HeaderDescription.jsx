@@ -6,6 +6,11 @@ const HeaderDescriptionStyled = styled.p`
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
+
+  @media (min-width: 1024px) {
+    font-size: 1.125rem;
+    padding: 0 20rem 0 20rem;
+  }
 `
 
 const HeaderDescription = () => {

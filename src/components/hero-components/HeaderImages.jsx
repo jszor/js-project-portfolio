@@ -22,6 +22,46 @@ const ImageStyled = styled.img`
   top: ${({ $top }) => $top || "0"};
   left: ${({ $left }) => $left || "0"};
   width: 144px;
+
+  @media (min-width: 768px) {
+    width: 260px;
+
+    ${({ alt }) =>
+      alt === "headshot" && `
+        left: 5%;
+        top: 5px;
+      `}
+    ${({ alt }) =>
+      alt === "office" && `
+        left: -45%;
+        top: 5px;
+      `}
+    ${({ alt }) =>
+      alt === "coding" && `
+        left: 55%;
+        top: 5px;
+      `}
+  }
+
+  @media (min-width: 1024px) {
+    width: 340px;
+
+    ${({ alt }) =>
+      alt === "headshot" && `
+        left: -15%;
+        top: 35px;
+      `}
+    ${({ alt }) =>
+      alt === "office" && `
+        left: -70%;
+        top: 35px;
+      `}
+    ${({ alt }) =>
+      alt === "coding" && `
+        left: 45%;
+        top: 35px;
+      `}
+  }
 `
 
 const HeaderImages = () => {
