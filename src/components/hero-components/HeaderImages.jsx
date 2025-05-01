@@ -18,9 +18,9 @@ const HeaderImagesStyled = styled.div`
 
 const ImageStyled = styled.img`
   position: absolute;
-  z-index: ${({ z }) => z || 0};
-  top: ${({ top }) => top || "0"};
-  left: ${({ left }) => left || "0"};
+  z-index: ${({ $z }) => $z || "0"};
+  top: ${({ $top }) => $top || "0"};
+  left: ${({ $left }) => $left || "0"};
   width: 144px;
 `
 
@@ -28,9 +28,9 @@ const HeaderImages = () => {
   return (
     <HeroSectionWrapper>
       <HeaderImagesStyled>
-        <ImageStyled src={office} alt="office" z="0" top="0" left="0%" />
-        <ImageStyled src={headshot} alt="headshot" z="1" top="0px" left="25%" />
-        <ImageStyled src={coding} alt="coding" z="0" top="0" left="50%" />
+        <ImageStyled src={office} alt="office" $z="0" $top="0" $left="0%" />
+        <ImageStyled src={headshot} alt="headshot" $z="1" $top="0px" $left="25%" />
+        <ImageStyled src={coding} alt="coding" $z="0" $top="0" $left="50%" />
       </HeaderImagesStyled>
     </HeroSectionWrapper>
   )
