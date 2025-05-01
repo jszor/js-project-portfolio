@@ -5,7 +5,6 @@ const HeaderDescriptionStyled = styled.p`
   margin-bottom: 4rem;
   font-size: 1rem;
   font-weight: 400;
-  padding: 0 1rem 0 1rem;
   text-align: center;
 `
 
