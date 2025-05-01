@@ -1,11 +1,23 @@
+import SectionTitle from "../typography/SectionTitle.jsx"
+import ContactInfo from "../components/footer-components/ContactContainer.jsx"
+import styled from "styled-components"
+
+const FooterStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 1rem 4rem 1rem;
+  background: black;
+  color: white;
+  height: 100vh;
+`
+
 const Footer = () => {
   return (
-    <div>
-      // title
-      // profile picture
-      // contact info div
-      // icons div
-    </div>
+    <FooterStyled>
+      <SectionTitle title="Let's Talk" />
+      <ContactInfo />
+    </FooterStyled>
   )
 }
 

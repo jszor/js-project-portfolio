@@ -4,6 +4,7 @@ import Tech from "./sections/Tech.jsx"
 import Projects from "./sections/Projects.jsx"
 import Skills from "./sections/Skills.jsx"
 import MyWords from "./sections/MyWords.jsx"
+import Footer from "./sections/Footer.jsx"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Projects />
       <Skills />
       <MyWords />
+      <Footer />
     </>
   )
 }
