@@ -30,7 +30,7 @@ const SkillCard = ({ title, skills }) => {
       </SkillCardTitle>
       <SkillCardList>
         {skills.map((skill) => (
-          <li>{skill}</li>
+          <li key={skill}>{skill}</li>
         ))}
       </SkillCardList>
     </SkillCardStyled>
