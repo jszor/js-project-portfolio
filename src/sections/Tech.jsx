@@ -9,6 +9,10 @@ const TechStyled = styled.div`
   background: black;
   color: white;
   padding-top: 4rem;
+
+  @media (min-width: 1024px) {
+    padding: 4rem 0 2rem 0;
+  }
 `
 
 const Tech = () => {
