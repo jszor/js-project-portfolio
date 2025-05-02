@@ -9,7 +9,7 @@ const FooterStyled = styled.div`
   padding: 4rem 1rem 4rem 1rem;
   background: black;
   color: white;
-  height: 100vh;
+  height: 100%;
 `
 
 const Footer = () => {
