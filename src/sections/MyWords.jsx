@@ -8,6 +8,10 @@ const MyWordsStyled = styled.div`
   flex-direction: column;
   text-align: center;
   padding: 4rem 1rem 0 1rem;
+
+  @media (min-width: 768px) {
+    padding: 4rem 1.5rem 0 1.5rem;
+  }
 `
 
 const MyWords = () => {

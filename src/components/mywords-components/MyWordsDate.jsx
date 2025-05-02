@@ -9,6 +9,10 @@ const MyWordsDateStyled = styled.p`
   margin-top: 1.75rem;
   width: 50%;
   text-align: center;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 const MyWordsDate = ({ date }) => {
