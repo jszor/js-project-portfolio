@@ -11,10 +11,12 @@ const ProjectsContainerStyled = styled.div`
 const ProjectsContainer = () => {
   return (
     <ProjectsContainerStyled>
-      {projects.projects.map((project) => (
+      {projects.projects.map((project, index) => (
         <ProjectCard 
         key={project.id}
-        imageSrc={project.image}
+        reverse={index % 2 !== 0}
+        srcMobile={project.srcMobile}
+        srcDesktop={project.srcDesktop}
         imageAlt={project.imageAlt}
         techStack={project.techStack}
         title={project.name}

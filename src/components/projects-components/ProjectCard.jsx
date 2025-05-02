@@ -11,16 +11,36 @@ const ProjectCardStyled = styled.div`
   align-items: center;
   margin-top: 4rem;
   gap: 1rem;
+
+  @media(min-width: 768px) {
+    flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")};
+    justify-content: space-between;
+  }
 `
 
-const ProjectCard = ({ imageSrc, imageAlt, techStack, title, description, githubLink, netlifyLink }) => {
+const ProjectCardInfoStyled = styled.div`
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+`
+
+const ProjectCard = ({ srcMobile, srcDesktop, imageAlt, techStack, title, description, githubLink, netlifyLink, reverse }) => {
   return (
-    <ProjectCardStyled>
-      <ProjectImage src={imageSrc} alt={imageAlt} />
-      <ProjectTechStack techStack={techStack} />
-      <ProjectTitle title={title} />
-      <ProjectDescription description={description} />
-      <ProjectButtons githubLink={githubLink} netlifyLink={netlifyLink} />
+    <ProjectCardStyled $reverse={reverse}>
+      <ProjectImage srcMobile={srcMobile} srcDesktop={srcDesktop} alt={imageAlt} />
+      <ProjectCardInfoStyled>
+        <ProjectTechStack techStack={techStack} />
+        <ProjectTitle title={title} />
+        <ProjectDescription description={description} />
+        <ProjectButtons githubLink={githubLink} netlifyLink={netlifyLink} />
+      </ProjectCardInfoStyled>
     </ProjectCardStyled>
   )
 }

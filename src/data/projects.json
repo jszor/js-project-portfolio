@@ -4,7 +4,8 @@
       "id": "1",
       "name": "Accessibility Quiz",
       "description": "An online quiz built with accessibility in mind. The design is responsive and follows best accessibility practices",
-      "image": "/images/proj_accessibility.png",
+      "srcMobile": "/images/proj_accessibility.png",
+      "srcDesktop": "/images/proj_accessibility_desktop.png",
       "imageAlt": "Accessibility Quiz",
       "techStack": [
         "HTML5",
@@ -19,7 +20,8 @@
       "id": "2",
       "name": "Recipe Lib",
       "description": "A web app that fetches and displays data dynamically from a recipes API. The project features filtering and sorting functionalities that work in tandem, giving the user the ability to fine-tune their search results.",
-      "image": "/images/proj_recipe.png",
+      "srcMobile": "/images/proj_recipe.png",
+      "srcDesktop": "/images/proj_recipe_desktop.png",
       "imageAlt": "Recipe Library",
       "techStack": [
         "HTML5",
@@ -34,7 +36,8 @@
       "id": "3",
       "name": "Chadō Business Site",
       "description": "A basic business site built using HTML, CSS and vanilla JavaScript with responsiveness in mind.",
-      "image": "/images/proj_business.png",
+      "srcMobile": "/images/proj_business.png",
+      "srcDesktop": "/images/proj_business_desktop.png",
       "imageAlt": "Chadō Business Site",
       "techStack": [
         "HTML5",
@@ -48,7 +51,8 @@
       "id": "4",
       "name": "Weather App",
       "description": "A weather app built using HTML, CSS, JavaScript and TypeScript. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
-      "image": "/images/proj_weather.png",
+      "srcMobile": "/images/proj_weather.png",
+      "srcDesktop": "/images/proj_weather_desktop.png",
       "imageAlt": "Weather App",
       "techStack": [
         "HTML5",

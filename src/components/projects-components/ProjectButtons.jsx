@@ -4,7 +4,7 @@ import styled from "styled-components"
 const ProjectButtonsStyled = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: flex-start;
   width: 100%;
   gap: 0.5rem;
   `

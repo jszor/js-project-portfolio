@@ -10,6 +10,10 @@ const ProjectButtonStyled = styled.button`
   background: black;
   color: white;
   border: none;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
 `
 
 const ProjectButtonImage = styled.img`
