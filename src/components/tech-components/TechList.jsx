@@ -14,7 +14,7 @@ const TechListStyled = styled.p`
 const TechList = () => {
   return (
     <TechListStyled>
-      HTML, CSS, Flexbox, JavaScript, TypeScript, JSX, React, Next.js, Node.js, MongoDB, Web Accessibility, APIs, mob-programming, pair-programming, GitHub. 
+      JavaScript (ES6), TypeScript, React, Node.js, RESTful APIs, MongoDB, Mongoose, Tailwind CSS, CSS3, HTML5.
     </TechListStyled>
   )
 }

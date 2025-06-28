@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import HeaderTitle from "../components/hero-components/HeaderTitle.jsx"
-import HeaderImages from "../components/hero-components/HeaderImages.jsx"
+import HeaderImage from "../components/hero-components/HeaderImage.jsx"
 import HeaderAbout from "../components/hero-components/HeaderAbout.jsx"
 
 const HeroStyled = styled.header`
@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <HeroStyled>
       <HeaderTitle />
-      <HeaderImages />
+      <HeaderImage />
       <HeaderAbout />
     </HeroStyled>
   )

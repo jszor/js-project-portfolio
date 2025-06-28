@@ -9,14 +9,14 @@ const HeaderDescriptionStyled = styled.p`
 
   @media (min-width: 1024px) {
     font-size: 1.125rem;
-    padding: 0 20rem 0 20rem;
+    padding: 0 10rem 0 10rem;
   }
 `
 
 const HeaderDescription = () => {
   return (
     <HeaderDescriptionStyled>
-      With my background in linguistics and language education, learning how to talk to computers was a natural next step in my career. I enjoy cracking complex systems, tackling new technologies, and approaching every project as an opportunity to learn and grow. Check out my work below!
+      I'm a full-stack MERN developer with a background in linguistics and education who transitioned to software development out of a passion for tech and a desire to help solve real-world problems with code.
     </HeaderDescriptionStyled>
   )
 }

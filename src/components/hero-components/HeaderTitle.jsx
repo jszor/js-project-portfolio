@@ -24,7 +24,7 @@ const HeaderTitleStyled = styled.h1`
 const HeaderTitle = () => {
   return (
     <>
-      <HeaderParStyled>Hi there, I'm 👋</HeaderParStyled>
+      <HeaderParStyled>Hey there, I'm 👋</HeaderParStyled>
       <HeaderTitleStyled>Juan Zorrilla</HeaderTitleStyled>
     </>
   )
